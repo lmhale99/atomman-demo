@@ -7,8 +7,8 @@ This repository provides demonstration Notebooks for the atomman Python package.
 If you have a google account, you can run the first two Notebooks in colab without needing to install anything.  This provides a simple, lightweight
 way of trying out some of the features of atomman.
 
-Colab link for [1. Interatomic Potentials.ipynb](https://colab.research.google.com/github/lmhale99/atomman/blob/master/1.%20Interatomic%20Potentials.ipynb)
-Colab link for [2. Atomic Systems.ipynb](https://colab.research.google.com/github/lmhale99/atomman/blob/master/2.%20Atomic%20Systems.ipynb)
+- Colab link for [1. Interatomic Potentials.ipynb](https://colab.research.google.com/github/lmhale99/atomman-demo/blob/main/1.%20Interatomic%20Potentials.ipynb)
+- Colab link for [2. Atomic Systems.ipynb](https://colab.research.google.com/github/lmhale99/atomman-demo/blob/main/2.%20Atomic%20Systems.ipynb)
 
 The "3. LAMMPS runs.ipynb" performs LAMMPS simulations, so it would require a simple means of installing LAMMPS for colab...
 
