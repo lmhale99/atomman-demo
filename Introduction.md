@@ -70,25 +70,16 @@ There is also a GitHub repository that serves as an archive of many of the recor
 
 ![potentials-library github repository](./images/github.png)
 
-## 4. Python packages
+## 3. Python packages
 
 The Interatomic Potentials Repository provides a number of Python packages that are designed to interact with the database records.  The main packages are
 
+- __yabadaba__ (https://github.com/usnistgov/yabadaba) allows for data generators to easily design user-friendly APIs to database records.  This package serves as the basis for all database operations in the following packages.
 - __potentials__ (https://github.com/usnistgov/potentials) provides APIs for interacting with the potential-related records in the https://potentials.nist.gov/ database.
 - __atomman__ (https://www.ctcms.nist.gov/potentials/atomman/) includes all APIs from potentials plus methods and tools for generating, manipulating and analyzing atomic configurations.
 - __iprPy__ (https://www.ctcms.nist.gov/potentials/iprPy/) contains a collection of complete property calculation scripts and tools for building and running high throughput workflows of the calculations.
 
-### Demonstration Jupyter Notebooks for the Python packages in colab
+## 4. Extra tools
 
-#### potentials
-
-- [Search Potential Entries](https://colab.research.google.com/github/usnistgov/potentials/blob/master/doc/0.%20Search%20Potential%20Entries.ipynb) uses widgets to generate a simple GUI for searching and exploring the potential listings as they appear in the main NIST Interatomic Potentials Repository.
-- [Search LAMMPS Potentials](https://colab.research.google.com/github/usnistgov/potentials/blob/master/doc/0.%20Search%20LAMMPS%20Potentials.ipynb) uses widgets to generate a simple GUI for searching and exploring the LAMMPS-compatible potential implementations in the NIST Interatomic Potentials Repository.  Allows for the downloading of parameter files and the generation of the LAMMPS input command lines to use with the parameter files.
-
-#### atomman
-
-- [Basics of atomman.ipynb](https://colab.research.google.com/github/lmhale99/atomman-demo/blob/main/2.%20Basics%20of%20atomman.ipynb) gives a step-by-step overview of how atomman can be used to select an interatomic potential, generate an atomic configuration, set up and run a LAMMPS simulation, and access the results for further processing and analysis.
-
-#### iprPy
-
-The main iprPy documentation contains demonstration Notebooks for all calculations.  Future plans will see about the feasibility of making them colab compatible, or colab-compatible alternatives.
+- __potentials-library__ (https://github.com/lmhale99/potentials-library) contains an archive copy of many of the database records.  This includes potential listings, LAMMPS potentials and parameter files, crystal prototype structures, and defect generation input parameter sets.
+- __potentials-workspace__ (https://github.com/lmhale99/potentials-workspace) collects the various scripts that have been used over the years to build LAMMPS-formatted parameter files for testing purposes or when requested.  These provide examples for how such parameter files can be built, and notes on the status of the specific potentials that were attempted.
