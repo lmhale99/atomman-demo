@@ -8,7 +8,7 @@ This repository provides a quick introductory overview for the various resources
 2. Install Python if needed.  Optionally, if you are using conda you can create a new environment to avoid any possible package conflicts.
 3. Download or clone this repository to a local directory.
 4. Install iprPy using either "pip install iprPy" or "conda install -c conda-forge iprPy"
-
+5. If needed, install jupyter lab as well.  For base python environments, you can do "pip install jupyterlab" or "conda install -c conda-forge jupyterlab".  For conda environments, you should install jupyterlab to the base environment, then install and set up a IPython kernel for the iprPY-containing environment https://ipython.readthedocs.io/en/stable/install/kernel_install.html.
 
 ## Notebook overview
 
