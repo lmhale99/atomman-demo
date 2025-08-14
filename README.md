@@ -1,6 +1,6 @@
 # atomman-demo
 
-This repository provides a quick introductory overview for the various resources and tools created by the NIST Interatomic Potentials Repository (IRP) project.  This is not meant to provide comprehensive documentation for all parts of the project as those are available elsewhere.  Links to the more in-depth docs can be found throughout the contents of this repository.
+This repository provides a quick introductory overview for the various resources and tools created by the NIST Interatomic Potentials Repository (IPR) project.  This is not meant to provide comprehensive documentation for all parts of the project as those are available elsewhere.  Links to the more in-depth docs can be found throughout the contents of this repository.
 
 ## Setup for this demo
 
